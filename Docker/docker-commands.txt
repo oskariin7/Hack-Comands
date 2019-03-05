@@ -69,6 +69,13 @@ docker run \
   --volume /my_volume \
   --workdir /app \ 
   IMAGE bash
+  
+# Save one or more images to a tar file
+docker save --output file.tar [image]
+
+# Load an image from a tar archive
+docker load --input file.tar
+
  
  -----------------------------------------
  
