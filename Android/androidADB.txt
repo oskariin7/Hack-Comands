@@ -19,7 +19,7 @@ adb shell pm path com.ejemplo.app # Obtener el path del archivo .apk de la aplic
 adb pull path/ejemplo/ap.apk # Descarga del archivo app.apk al PC
 adb -d logcat [com.package.example]:I *:S   # depurar una aplicacion instalada
 adb -d logcat [com.package.example] | find "keewords"
-
+adb -s deviceName command_to_use #ejecutar comandos especificos sobre un dispositivo en concreto
 
 --------
 ## Configure Local ADB trow Remote ADB ##
